@@ -213,18 +213,15 @@ nav a.active{
 }
 
 section{
-    min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
 
 .home{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 8rem;
     background-color: rgb(255, 255, 255);
-    min-height: 100vh;
-    height: auto;
     overflow: visible;
 }
 
