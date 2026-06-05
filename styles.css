@@ -213,15 +213,17 @@ nav a.active{
 }
 
 section{
+    min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
 
 .home{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 8rem;
     background-color: rgb(255, 255, 255);
+    min-height: 100vh;
     overflow: visible;
 }
 
@@ -443,7 +445,9 @@ span{
 @media(max-width:995px){
     .home{
         flex-direction: column;
+        align-items: flex-start;
         margin: 5rem 4rem;
+        padding-top: 2rem;
     }
 
     .home .home-content h3{
